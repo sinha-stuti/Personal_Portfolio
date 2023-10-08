@@ -31,7 +31,7 @@
         </div>
         <div class="menu-links">
           <li><a href="#about" onclick="toggleMenu()">About</a></li>
-          <li><a href="#skill" onclick="toggleMenu()">Skill</li>
+          <li><a href="#skill" onclick="toggleMenu()">Skill</a></li>
           <li><a href="#experience" onclick="toggleMenu()">Experience</a></li>
           <li><a href="#projects" onclick="toggleMenu()">Projects</a></li>
           <li><a href="#contact" onclick="toggleMenu()">Contact</a></li>
@@ -47,7 +47,7 @@
       <div class="section__text">
         <p class="section__text__p1">Hello, I'm</p>
         <h1 class="title">Stuti Sinha</h1>
-        <p class="section__text__p2">Web Developer</p>
+        <p class="section__text__p2"><span class="multiple-text"></span></p>
         <div class="btn-container">
           <button
             class="btn btn-color-2"
@@ -438,6 +438,22 @@
         </div>
       </div>
     </section>
+    <section class="contact">
+      <h2 class="heading">Message <span>Me !</span></h2>
+
+      <form action="#">
+        <div class="input-box">
+          <input type="text" placeholder="Full Name">
+          <input type="email" placeholder="Email Address"> 
+        </div>
+        <div class="input-box">
+          <input type="number" placeholder="Mobile Number">
+          <input type="text" placeholder="E-Mail Subject">
+        </div>
+        <textarea name="" id="" cols="5" rows="8" placeholder="Your Message"></textarea>
+        <input type="submit" value="Send Message" class="btn btn-color-2 project-btn">
+      </form>
+  </section>
     <footer>
       <nav>
         <div class="nav-links-container">
@@ -452,6 +468,7 @@
       </nav>
       <p>Copyright &#169; 2023 Stuti Sinha. All Rights Reserved.</p>
     </footer>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.10/typed.js"></script>
     <script src="script.js"></script>
   </body>
 </html>
