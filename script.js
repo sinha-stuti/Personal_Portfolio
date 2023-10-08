@@ -7,7 +7,7 @@ function toggleMenu() {
 
 /* Typed .js */
 const typed = new Typed('.multiple-text', {
-    strings: ['Web Developer','Software Engineer','<Coder>'],
+    strings: ['Developer ...','Software Engineer','</Coder>','Student','Keen Learner'],
     typeSpeed: 80,
     backSpeed: 80,
     backDelay: 800,
